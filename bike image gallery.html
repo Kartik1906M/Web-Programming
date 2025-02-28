@@ -1,0 +1,195 @@
+Html code
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Bike Gallery</title>
+    <link rel="stylesheet" href="bike.css">
+</head>
+<body background="white">
+    <header>
+        <h1>Bikes Expo</h1>
+        <p>A place where you can get your dream bike</p>
+    </header>
+
+    <main>
+        <section class="gallery-section">
+            <h2>Bikes</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="1.avif" alt="Bike 1">
+                    <div class="caption">Bike 1</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="2.avif" alt="Bike 2">
+                    <div class="caption">Bike 2</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="3.avif" alt="Bike 3">
+                    <div class="caption">Bike 3</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="4.avif" alt="Bike 4">
+                    <div class="caption">Bike 4</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="5.avif" alt="Bike 5">
+                    <div class="caption">Bike 5</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="6.avif" alt="Bike 6">
+                    <div class="caption">Bike 6</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="7.avif" alt="Bike 7">
+                    <div class="caption">Bike 7</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="8.avif" alt="Bike 8">
+                    <div class="caption">Bike 8</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="9.avif" alt="Bike 9">
+                    <div class="caption">Bike 9</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="10.avif" alt="Bike 10">
+                    <div class="caption">Bike 10</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="11.avif" alt="Bike 11">
+                    <div class="caption">Bike 11</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="12.avif" alt="Bike 12">
+                    <div class="caption">Bike 12</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="13.avif" alt="Bike 13">
+                    <div class="caption">Bike 13</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="14.avif" alt="Bike 14">
+                    <div class="caption">Bike 14</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="15.avif" alt="Bike 15">
+                    <div class="caption">Bike 15</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="16.avif" alt="Bike 16">
+                    <div class="caption">Bike 16</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="17.avif" alt="Bike 17">
+                    <div class="caption">Bike 17</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="18.avif" alt="Bike 18">
+                    <div class="caption">Bike 18</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="19.avif" alt="Bike 19">
+                    <div class="caption">Bike 19</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="20.avif" alt="Bike 20">
+                    <div class="caption">Bike 20</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(90deg, #ff6f61, #ff9a9e);
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.gallery-section {
+    margin: 2rem 0;
+}
+
+.gallery-section h2 {
+    font-size: 1.8rem;
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .gallery-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
